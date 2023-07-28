@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/hackathon-2023-summer/backend
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/hackathon-2023-summer/frontend
