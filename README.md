@@ -8,3 +8,5 @@
 - 任意のフォルダで
   　 git clone --recurse-submodules https://github.com/hackathon-2023-summer/RareTECH2023Summer  
   これを実行すると、親子関係のリポジトリができる。
+
+- ./.env、./backend/.env、./frontend/.env の 3 つの.env を移植すること。
