@@ -42,12 +42,12 @@ services:
     networks:
       - hackathon_network
     volumes:
-      - ./frontend/server:/home/appuser/devcon
+      - ./frontend:/home/appuser/devcon
     expose:
       - ${PORT_FRONT}
     # ports:
     #   - ${PORT_FRONT}:${PORT_FRONT}
-    command: ["/bin/sh", "-c", "npm start"]
+    command: ["/bin/sh", "-c", "/home/appuser/devcon/build.sh"]
 
   mysql:
     build:
