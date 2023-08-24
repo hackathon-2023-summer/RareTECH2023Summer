@@ -1,3 +1,4 @@
 .env
 /nginx/log
 .env.aws
+.env.aws.tanaka
