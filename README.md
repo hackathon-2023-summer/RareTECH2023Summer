@@ -10,3 +10,6 @@
   これを実行すると、親子関係のリポジトリができる。
 
 - ./.env、./backend/.env、./frontend/.env の 3 つの.env を移植すること。
+
+- AWS 用のコンテナ起動コマンドは以下。MySQL を止めている。
+  docker compose -f "docker-compose-aws.yml" up -d --build
